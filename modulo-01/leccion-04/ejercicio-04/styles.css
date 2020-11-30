@@ -1,0 +1,30 @@
+.container {
+  border: 1px solid pink;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  order: unset;
+}
+
+.news {
+  box-sizing: border-box;
+  border: 1px solid yellow;
+  width: 50%;
+  height: 500px;
+  object-fit: fill;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.destacada {
+  order: -1;
+  font-weight: bold;
+  width: 100%;
+}
+
+.imagen {
+  width: 10px;
+}

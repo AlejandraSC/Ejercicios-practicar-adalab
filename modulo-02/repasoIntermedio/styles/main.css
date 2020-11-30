@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  height: 100vh;
+}
+
+.fire-color {
+  background-color: #ff9900;
+}
+
+.yellow-color {
+  background-color: purple;
+}

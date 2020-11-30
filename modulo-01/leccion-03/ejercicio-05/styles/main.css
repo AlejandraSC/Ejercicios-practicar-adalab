@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100vh;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div-1 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.div-2 {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+}
+
+.div-3 {
+  background-color:blue;
+  width: 100px;
+  height: 100px;
+}
+
+.logo-adalab {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+
+}

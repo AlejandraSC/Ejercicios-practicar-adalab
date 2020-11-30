@@ -1,0 +1,12 @@
+@mixin t($fontSize, $fontFamily) {
+  font-size: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.main__title {
+  @include t(32px, );
+}
+
+.main__content p {
+  @include t(18px, 24px);
+}

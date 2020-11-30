@@ -1,0 +1,15 @@
+.container {
+  box-sizing: border-box;
+  border: 5px solid pink;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+  height: 100px;
+  width: 200px;
+}
+
+.Item {
+  box-sizing: border-box;
+  border: 5px solid yellow;
+}

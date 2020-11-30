@@ -1,0 +1,15 @@
+.class {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  border: salmon 5px inset;
+}
+
+@media all and (min-width: 768px) {
+  * {
+    background-color: blueviolet;
+  }
+}

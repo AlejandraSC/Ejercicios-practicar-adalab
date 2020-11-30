@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Facebook</title>
+  </head>
+
+  <body>
+    <form action="/signup" method="post">
+      <fieldset>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Nombre" required />
+        <input type="text" id="apellidos" name="surnames" placeholder="Apellidos" required />
+        <label for="surnames">Nombre de usuario</label>
+        <input type="email" id="" name="nombre de usuario" placeholder="@gmail.com" required />
+        <form action="somefile.php"></form>
+        <label for="Password">Contraseña</label>
+        <input type="password" id="password" name="password" required />
+        <label for="password">Confirma tu contraseña</label>
+        <input type="password" id="password" name="password" required />
+        <label for="number">Fecha de nacimiento</label>
+        <input type="number" name="" id="" min="1" max="31" />
+        <select name="month" id="month">
+          <option value="Mes">Mes</option>
+          <option value="enero">enero</option>
+          <option value="febrero">febrero</option>
+          <option value="marzo">marzo</option>
+          <option value="abril">abril</option>
+          <option value="mayo">mayo</option>
+          <option value="junio">junio</option>
+          <option value="julio">julio</option>
+          <option value="agosto">agosto</option>
+          <option value="septiembre">septiembre</option>
+          <option value="octubre">octubre</option>
+          <option value="noviembre">noviembre</option>
+          <option value="diciembre">diciembre</option>
+        </select>
+        <input type="number" name="year" id="year" min="1930" max="2020" />
+        <label for="genre">Sexo</label>
+        <select name="genre" id="genre">
+          <option value="masculino">masculino</option>
+          <option value="femenino">femenino</option>
+        </select>
+        <label for="phone">Telefono móvil</label>
+        <input type="tel" name="tel" id="tel" value="+34" pattern="(\+34|0034|34)?[ -]*(6|7)[ -]*([0-9][ -]*){8}" required />
+        <label for="email">Tu dirección de correo electrónico actual</label>
+        <input type="email" name="email" id="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required />
+        <form action="procesar_datos.php" method="post">
+          <label for="condiciones">Acepta las <a href="pagina_condiciones.html">condiciones</a></label
+          ><input type="checkbox" name="condiciones" required />
+          <input type="submit" value="Enviar" />
+        </form>
+        <input type="submit" value="Siguiente paso" />
+      </fieldset>
+    </form>
+  </body>
+</html>

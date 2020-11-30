@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+.profile-photo {
+  width: 50px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.interiorContainer {
+  background-color: white;
+  width: 300px;
+}
+
+.App-header {
+  background-color: grey;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: black;
+}
